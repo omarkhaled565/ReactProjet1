@@ -1,0 +1,132 @@
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+  }
+
+*{
+    box-sizing: border-box;
+ }
+
+ body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+ }
+
+   *:focus {
+    outline: none;
+  }
+.page{
+    display: flex;
+    min-height: 100vh;
+    background-color:white;
+    margin: 0;
+ 
+    
+ }
+ /* Start of style of sidebar */
+.sidebar{
+    padding: 5px; 
+    position: relative; 
+   background-color: #f8f8f9;
+   min-width: 35%;
+}
+.info img{
+    height: 66px;
+    margin-top:130px;
+    margin-right: auto;
+    margin-left: 122px;
+    border-radius: 10px;
+    margin-bottom: 26px;
+
+}
+
+.info h4{
+    color: black;
+    flex-grow: 1;
+    text-align: center;
+    font-weight: bold;
+    margin: 24px;
+    font-size: 1.125rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+}
+.text{
+    padding-top: 24px;
+}
+.text h5{
+    color: black;
+    font-family: Poppins,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.334;
+    letter-spacing: 0em;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.text h6{
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.0075em;
+    color: black;
+    font-family:Poppins,Roboto,Helvetica,Arial,sans-serif ;
+    text-align: center
+}
+/* end of sidebar */
+
+.Summary{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.number-4{
+    background-color: blueviolet;
+    color: white;
+    margin-right: 7px;
+    border: 1px solid blueviolet;
+    border-radius: 50%;
+    font-size: 14px;
+    padding: 5px;
+}
+.text-summery{
+    margin-left: 10px;
+    background-color: white;
+    letter-spacing: 1;
+    list-style: upper-alpha;
+    font-weight: bold;
+    font-size: 15px;
+    shape-outside: none;
+    box-shadow: #888;
+}
+.box-info{
+    display: flex;
+    border-radius: 2px;
+    border:  2px solid rgb(5, 5, 5);
+    box-sizing: border-box;
+    box-shadow: #a8a6a6;
+    padding: 5px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 140px;
+    justify-content: space-between;
+  
+}
+.first-info{
+    margin-top: 2px;
+    padding-left: 5px;
+
+}
+.first-info h4{
+    font-size: 20px;
+}
+.secound-info{
+    margin-top: 2px;
+    padding-right: 5px;
+}
+.secound-info h4{
+    font-size: 20px;
+}
