@@ -1,13 +1,8 @@
 import {React,useState }from 'react'
 import logo from '../Assets/logo.png'
 import './basic.css'
+import {Link} from 'react-router-dom'
 const Part1 = () => {
-  const [isVisible, setIsVisible] = useState(true);
-
-  // Function to hide the content
-  const hideContent = () => {
-    setIsVisible(false);
-  };
   const [selectedOption, setSelectedOption] = useState('');
 
   const handleSelectChange = (event) => {
@@ -132,8 +127,9 @@ const Part1 = () => {
                {/* button */}
                <div className='bbtn'>
                    <button className='btn-1'> back</button>
-                    <button className='btn-2'> Next</button>
+                   <Link to='/src/Component/Basicinformation'>  <button className='btn-2'>  Next</button></Link>
                   </div>
+
                           
         </div>
         {/* end content */}

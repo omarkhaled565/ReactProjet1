@@ -1,19 +1,7 @@
 import  {React,useState} from 'react'
 import './master.css'
 import logo from '../Assets/logo.png'
-import { BrowserRouterasRouter, Route, Link, Routes } from 'react-router-dom';
-import Part1 from '../Basicinformation/Part1';
-export const Getstrated = () => {
-  const [isDevContentVisible, setIsDevContentVisible] = useState(true);
-
-  const HiddenDevContent = () => {
-    setIsDevContentVisible((prev) => !prev);
-  };
-  const [isDevContentinVisible ,setIsDevContentinVisible] =useState(true);
-  const showDevContent =() =>{
-    setIsDevContentinVisible ((prev) => !prev)
-  }
-  
+export const Getstarted = () => {
   return (
     <div className='page'>
         {/* sidebar */}
@@ -52,7 +40,22 @@ export const Getstrated = () => {
 
               
                  </div>  
-            
+            <div className='vertical-line0'></div>
+            <div className='MoreOptions0'>
+                <h4 className='numbers0'> 2</h4>
+                <h4 className='texts0'>Basicinformation</h4>
+            </div>
+            {/* 2 */}
+            <div className='vertical-line1'></div>
+            <div className='MoreOptions1'>
+                <h4 className='numbers1'> 3</h4>
+                <h4 className='texts1'>OptionalDetails</h4>
+            </div>
+            <div className='vertical-line2'></div>
+            <div className='MoreOptions2'>
+                <h4 className='numbers2'> 3</h4>
+                <h4 className='texts2'>Summary</h4>
+            </div>
         </div>
         {/* end content */}
     </div>

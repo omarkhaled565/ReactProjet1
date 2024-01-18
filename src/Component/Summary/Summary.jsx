@@ -2,17 +2,6 @@ import {React ,useState} from 'react'
 import logo from '../Assets/logo.png'
 import './Summary.css'
 const Summary = () => {
-    const [isVisible, setIsVisible] = useState(true);
-
-    // Function to hide the content
-    const hideContent = () => {
-      setIsVisible(false);
-    };
-    const [selectedOption, setSelectedOption] = useState('');
-  
-    const handleSelectChange = (event) => {
-      setSelectedOption(event.target.value);
-    };
   return (
         <div className='page'>
             {/* strat of sidebar */}

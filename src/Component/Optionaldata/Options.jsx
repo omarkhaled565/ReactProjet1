@@ -2,12 +2,7 @@ import {React ,useState} from 'react'
 import logo from '../Assets/logo.png'
 import './Option.css'
 export const Options = () => {
-    const [isVisible, setIsVisible] = useState(true);
-
-  // Function to hide the content
-  const hideContent = () => {
-    setIsVisible(false);
-  };
+    
   const [selectedOption, setSelectedOption] = useState('');
 
   const handleSelectChange = (event) => {
