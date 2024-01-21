@@ -99,6 +99,9 @@
     margin-top: 35px;
   
 }
+.spans{
+    padding-left:55px
+}
 .input-11{
     display: flex;
     flex-direction: row;
@@ -192,6 +195,7 @@
 
   
 }
+<<<<<<< HEAD:src/Components/BasicinformationComponent/basic.css
 .spans{
     padding-left:55px ;
 }
@@ -250,3 +254,5 @@
     padding: 2px;
     margin-left: 2px;
 }
+=======
+>>>>>>> 9f47d8930a457a7f36be152fb38846c475e8cc94:src/Component/Basicinformation/basic.css
