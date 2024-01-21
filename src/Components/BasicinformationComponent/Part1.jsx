@@ -8,6 +8,22 @@ const Part1 = () => {
   const handleSelectChange = (event) => {
     setSelectedOption(event.target.value);
   };
+  const [selectedOption1, setSelectedOption1] = useState('');
+
+  const handleSelectChange1 = (event) => {
+    setSelectedOption1(event.target.value);
+  };
+  const [selectedOption2, setSelectedOption2] = useState('');
+
+  const handleSelectChange2 = (event) => {
+    setSelectedOption2(event.target.value);
+  };
+  const [selectedOption0, setSelectedOption0] = useState('');
+
+  const handleSelectChange0 = (event) => {
+    setSelectedOption0(event.target.value);
+  };
+
   return (
     <div className='page'>
         {/* sidebar */}
@@ -89,7 +105,7 @@ const Part1 = () => {
                     {/* 2 */}
                     <div className='mob'>
                             <lable className='lab-em'> Student categoury</lable>
-                            <select className='input-em' id="dropdown" value={selectedOption} onChange={handleSelectChange} placeholder="courses">
+                            <select className='input-em' id="dropdown" value={selectedOption1} onChange={handleSelectChange1} placeholder="courses">
                                   <option value=""></option>
                                   <option value="option1">A</option>
                                   <option value="option2">B</option>
@@ -104,7 +120,7 @@ const Part1 = () => {
                   {/* start */}
                   <div className='Em'>
                       <lable className='lab-em'> Academic Year</lable>
-                      <select className='input-em' id="dropdown" value={selectedOption} onChange={handleSelectChange} placeholder="courses">
+                      <select className='input-em' id="dropdown" value={selectedOption2} onChange={handleSelectChange2} placeholder="courses">
                             <option value=""></option>
                             <option value="option1">2020/2021</option>
                             <option value="option2">2021/2022</option>
@@ -115,8 +131,8 @@ const Part1 = () => {
                     {/* 2 */}
                     <div className='mob'>
                       <lable className='lab-em'> Academic Term</lable>
-                      <select className='input-em' id="dropdown" value={selectedOption} onChange={handleSelectChange} placeholder="courses">
-                            <option value=""></option>
+                      <select className='input-em' id="dropdown" value={selectedOption0} onChange={handleSelectChange0} placeholder="courses">
+                            <option value=""> </option>
                             <option value="option1"> Term 1</option>
                             <option value="option2"> Term 2</option>
                            <option value="option3"> Term 3</option>
@@ -127,8 +143,20 @@ const Part1 = () => {
                {/* button */}
                <div className='bbtn'>
                    <button className='btn-1'> back</button>
-                   <Link to='/src/Component/Basicinformation'>  <button className='btn-2'>  Next</button></Link>
+                    <button className='btn-2'>  Next</button>
                   </div>
+
+                  <div className='VerticalForm'></div>
+                  <div className='numiration-info'>
+                    <h4 className='numric'>3</h4>
+                    <h4 className='texter'>OptionalDetails </h4>
+                  </div>
+                  <div className='VerticalForm0'></div>
+                  <div className='numiration0-info'>
+                    <h4 className='numric0'>4</h4>
+                    <h4 className='texter0'>Summary </h4>
+                  </div>
+
 
                           
         </div>

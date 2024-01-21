@@ -195,3 +195,58 @@
 .spans{
     padding-left:55px ;
 }
+.VerticalForm{
+    margin-left:5px;
+    margin-top: -722px;
+    height: 781px;
+    border: 1px solid rgb(187, 187, 187);
+    width: 0;
+}
+.numiration-info{
+
+    display: flex;
+    margin-top: -14px;
+    margin-left: 1px;
+}
+.numric{
+    background-color: gray;
+    border-radius: 50%;
+    color: white;
+    padding: 3px;
+}
+.texter{
+    background-color: #888;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 2px;
+    margin-left: 2px;
+}
+.VerticalForm0{
+    margin-left:6px;
+    margin-top: -13px;
+    height: 22px;
+    border: 1px solid rgb(187, 187, 187);
+    width: 0;
+}
+.numiration0-info{
+
+    
+    display: flex;
+    margin-top: -14px;
+    margin-left: 1px;
+}
+.numric0{
+    background-color: gray;
+    border-radius: 50%;
+    color: white;
+    padding: 3px;
+}
+.texter0{
+    background-color: #888;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 2px;
+    margin-left: 2px;
+}

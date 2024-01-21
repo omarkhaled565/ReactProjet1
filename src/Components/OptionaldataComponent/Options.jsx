@@ -8,6 +8,16 @@ export const Options = () => {
   const handleSelectChange = (event) => {
     setSelectedOption(event.target.value);
   };
+  const [selectedOption11, setSelectedOption11] = useState('');
+
+  const handleSelectChange11 = (event) => {
+    setSelectedOption11(event.target.value);
+  };
+  const [selectedOption12, setSelectedOption12] = useState('');
+
+  const handleSelectChange12 = (event) => {
+    setSelectedOption12(event.target.value);
+  };
   return (
     <div className='page'>
         {/* sidebar */}
@@ -63,7 +73,7 @@ export const Options = () => {
                                     {/* 2 */}
                                     <div className='data-2'>
                                                 <label className='lable' > Town</label>
-                                                <select className='gender-1' id="dropdown" value={selectedOption} onChange={handleSelectChange} placeholder="courses">
+                                                <select className='gender-1' id="dropdown" value={selectedOption11} onChange={handleSelectChange11} placeholder="courses">
                                                         <option value=""></option>
                                                         <option value="option1">cairo</option>
                                                         <option value="option2">Giza</option>
@@ -77,7 +87,7 @@ export const Options = () => {
                                 {/* 1 */}
                                 <div className='date-1'>
                                         <label className='lable' > country</label>
-                                        <select className='gender-1' id="dropdown" value={selectedOption} onChange={handleSelectChange} placeholder="courses">
+                                        <select className='gender-1' id="dropdown" value={selectedOption12} onChange={handleSelectChange12} placeholder="courses">
                                                     <option value=""></option>
                                                     <option value="option1">lebannon</option>
                                                     <option value="option2">syria</option>
@@ -118,7 +128,13 @@ export const Options = () => {
              <div className='btn'>
                       <button className='btn-1'> back</button>
                       <button className='btn-2'> Next</button>
-            </div>      
+            </div>  
+            <div className='verticalrole'></div>
+            <div className='integrate' >
+                <h4 className='Nun'>4</h4>
+                <h4 className='tex'> Summary</h4>
+
+                </div>   
         </div>
         {/* end content */}
     </div>

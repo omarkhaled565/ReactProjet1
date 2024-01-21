@@ -81,11 +81,11 @@
 .content{
     background-color: white;
     padding: 10px;
-     margin-top: 20px;  
-     margin-left: 10px;
+     margin-top: 12px;  
+     margin-left: -41px;
 } 
 .spans{
-    margin-left: -57px;
+    margin-left: -68px;
 }
 .optional-details{
     margin-top: 15px;
@@ -98,6 +98,9 @@
     flex-direction: row;
     margin-top: 40px;
     
+}
+.optioner{
+    display: flex;
 }
 .date-1{
     margin-top: 20px;
@@ -153,4 +156,31 @@
 }
 .dateof-birth:focus::placeholder{
     opacity: 0;
+}
+.verticalrole{
+    margin-left: 83px;
+    margin-top: -452px;
+    height: 489px;
+    border: 2px solid gray;
+    width: 0;
+}
+.integrate{
+    display: flex;
+    margin-left: 80px;
+    margin-top: -16px;
+}
+.Nun{
+    border: 2px solid gray;
+    border-radius: 50%;
+    color: white;
+    padding: 2px;
+    background-color: #888;
+}
+.tex{
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: white;
+    padding: 2px;
+    margin-left: 3px;
+    background-color: #888;
 }

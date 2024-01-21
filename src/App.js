@@ -12,13 +12,14 @@ function App() {
            
      <Router>
             <div className='form'>
-              <Getstarted/>
+                <Options/>
             </div>
                        <div className='applicationRoutes'>
                           <Routes> 
-                                  < Route path='/P' exact element ={<Part1/>}> </Route>
-                                  <Route path= '/O' element={<Options/>}></Route>
-                                  <Route path= '/S' element={<Summary/>}></Route>
+                                    <Route path='/' exact Component={Getstarted}>  </Route>
+                                  < Route path='/P'  Component ={Part1}> </Route>
+                                  <Route path= '/O'Component={Options}></Route>
+                                  <Route path= '/S' Component={Summary}></Route>
                           </Routes>
                        </div>
                         
